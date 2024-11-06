@@ -1,3 +1,4 @@
+"""testejä """
 import unittest
 from varasto import Varasto
 
@@ -75,10 +76,8 @@ class TestVarasto(unittest.TestCase):
         """testi"""
         self.varasto.lisaa_varastoon(2)
         self.varasto.ota_varastosta(4)
-        
         self.assertAlmostEqual(self.varasto.saldo, 0)
 
     def test_str(self):
         """testi"""
         self.assertAlmostEqual(str(self.varasto), "saldo = 0, vielä tilaa 10")
-        

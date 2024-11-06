@@ -1,3 +1,4 @@
+"""varasto luokka"""
 class Varasto:
     """Class representing a storage"""
     def __init__(self, tilavuus, alku_saldo = 0):

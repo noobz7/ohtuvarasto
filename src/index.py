@@ -1,3 +1,4 @@
+"""käytetään varasto.py"""
 from varasto import Varasto
 
 def main():
