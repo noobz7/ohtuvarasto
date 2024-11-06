@@ -1,7 +1,7 @@
 from varasto import Varasto
 
-
 def main():
+    """pieni testi luokka varasto.py:lle"""
     mehua = Varasto(100.0)
     olutta = Varasto(100.0, 20.2)
 
